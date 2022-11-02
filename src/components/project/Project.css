@@ -1,0 +1,32 @@
+.project {
+  position: relative;
+}
+
+.project p {
+  position: absolute;
+  background-color: rgb(255, 251, 251);
+  z-index: 1;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.project-image {
+  width: 100%;
+  height: auto !important;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+.project-image:hover {
+  opacity: 1;
+}
+
+.project-image ~ .project-name {
+  opacity: 0;
+}
