@@ -1,3 +1,3 @@
 export const STORY_ILLUSTRATION = "https://libeo.com/wp-content/uploads/2021/07/developpement-logiciel-sur-mesure.png"
-export const EXPERIENCE_ILLUSTRATION = "https://www.ncontracts.com/hubfs/Assets/Images/group%201-01.png"
-export const CERTIFICATION_ILLUSTRATION = "https://www.bglcorp.com/wp-content/uploads/2020/07/Asset-2date.png"
+export const EXPERIENCE_ILLUSTRATION = "https://stories.freepiklabs.com/api/vectors/portfolio/amico/render?color=63C1EDFF&background=complete&hide="
+export const CERTIFICATION_ILLUSTRATION = "https://stories.freepiklabs.com/api/vectors/webinar/rafiki/render?color=63C1EDFF&background=false&hide="

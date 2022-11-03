@@ -13,6 +13,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  width: 105%;
 }
 
 .project-image {
@@ -20,13 +22,17 @@
   height: auto !important;
   margin-bottom: 10px;
   border-radius: 10px;
-  opacity: 0.5;
-}
-
-.project-image:hover {
   opacity: 1;
 }
 
-.gallery img:hover ~ .project-name {
+.project-name {
   opacity: 0;
+}
+
+.project-image:hover {
+  opacity: 0.5;
+}
+
+.gallery img:hover ~ .project-name {
+  opacity: 1;
 }

@@ -1,5 +1,5 @@
 .portfolio {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .portfolio h1 {
@@ -38,28 +38,6 @@
   color: #777;
 }
 
-/* Active and Hoverable Pagination */
-.gallery-pagination li a {
-  border-radius: 5px;
-  -webkit-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-  color: #777;
-}
-.gallery-pagination li a.active {
-  background-color: #bd9a59;
-  color: #fff;
-}
-.gallery-pagination li a:hover:not(.active) {
-  background-color: #ddd;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto !important;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  opacity: 0.5;
-}
 
 
 @media (max-width: 1200px) {

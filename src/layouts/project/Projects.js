@@ -1,5 +1,5 @@
 import React from "react";
-import './Projects.css'
+import "./Projects.css";
 import Project from "../../components/project/Project";
 import { PROJECTS } from "../../dummy_datas/ProjectData";
 
@@ -10,9 +10,7 @@ function Projects() {
       <div className="gallery">
         {PROJECTS.map((item) => (
           <Project
-            animation={
-              PROJECTS.indexOf(item) % 2 == 0 ? "fade-up-right" : "fade-up-left"
-            }
+            animation={"zoom-in"}
             link=""
             projectImg={item.projectImg}
             projectName={item.projectName}
