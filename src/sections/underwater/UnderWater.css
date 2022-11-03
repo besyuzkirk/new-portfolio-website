@@ -3,6 +3,9 @@
   border: 1px solid #1b7dbe;
   color: white;
   font-family: "Rubik", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  
 }
 
 .scroll-down-icon {

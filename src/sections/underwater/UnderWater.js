@@ -17,11 +17,7 @@ import Projects from "../../layouts/project/Projects";
 import Contact from "../../components/contact/Contact";
 
 function UnderWater() {
-  useEffect(() => {
-    Aos.init({
-      duration: 2000,
-    });
-  }, []);
+ 
 
   return (
     <div className="header-section">
