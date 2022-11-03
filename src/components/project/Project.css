@@ -27,6 +27,6 @@
   opacity: 1;
 }
 
-.project-image ~ .project-name {
+.gallery img:hover ~ .project-name {
   opacity: 0;
 }

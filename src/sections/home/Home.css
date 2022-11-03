@@ -1,0 +1,11 @@
+.content-section {
+    height: 80vh;
+    z-index: 1;
+    color: white;
+}
+
+@media screen and (max-width: 799px) {
+    .content-section {
+        height: 95vh;
+    }
+}

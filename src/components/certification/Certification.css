@@ -1,0 +1,46 @@
+.cert {
+  display: flex;
+  padding: 0.5rem;
+  text-align: start;
+}
+
+.cert h2 {
+  font-weight: 600 !important;
+}
+
+.cert h3 {
+  font-weight: 400 !important;
+  opacity: 0.7;
+}
+
+.cert-images {
+  width: 15%;
+  margin-right: 1rem;
+}
+
+.cert-images img {
+  border-radius: 10%;
+}
+
+.cert-info {
+  flex: 5;
+}
+
+@media screen and (max-width: 480px) {
+  .cert-images {
+    width: 25%;
+    margin-right: 1rem;
+  }
+
+  .cert h2 {
+    font-weight: 600 !important;
+    font-size: 1.1rem;
+  }
+  
+  .cert h3 {
+    font-weight: 400 !important;
+    opacity: 0.7;
+    font-size: 1rem;
+  }
+}
+

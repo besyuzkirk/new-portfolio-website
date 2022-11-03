@@ -1,0 +1,46 @@
+.experience {
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.firm-icon {
+    width: 20%;
+}
+.firm-icon img {
+    flex: 1;
+    border-radius: 10%;
+}
+
+.experience-information {
+    margin-left: 16px;
+}
+
+.experience-information p {
+    font-size: 1.5rem;
+    text-align: start;
+    flex: 1;
+    margin-bottom: 5px;
+}
+
+.job-title {
+    font-weight: 600 !important;
+}
+
+.job-date {
+    opacity: 0.7;
+}
+
+.job-place {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 480px) {
+    .experience-information p {
+      font-size: 1rem;
+    }
+    .firm-icon {
+        width: 30%;
+    }
+  }
+  

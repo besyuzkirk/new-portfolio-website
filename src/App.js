@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import Scene from './sections/scene/Scene';
+import Home from './sections/home/Home';
 import './App.css';
+import UnderWater from './sections/underwater/UnderWater';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Scene />
+      <Home />
+      <UnderWater />
     </div>
   );
 }
 
 export default App;
+
+//ToDo
+//Summary.css responsivity issiue
