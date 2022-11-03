@@ -37,10 +37,19 @@
 
 @media screen and (max-width: 480px) {
     .experience-information p {
-      font-size: 1rem;
+      font-size: 1rem !important;
     }
     .firm-icon {
-        width: 30%;
+        width: 30% !important;
+    }
+  }
+
+  @media screen and (max-width: 1540px) {
+    .experience-information p {
+      font-size: 1.2rem;
+    }
+    .firm-icon {
+        width: 25%;
     }
   }
   

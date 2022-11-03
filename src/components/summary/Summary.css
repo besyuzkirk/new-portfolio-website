@@ -73,6 +73,41 @@
     }
 }
 
+@media screen and (max-width: 1320px) {
+    .summary {
+        text-align: center;
+    }
+    .summary h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .summary h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    
+    .summary p {
+        font-size: 1.5rem;
+    }
+
+    .summary {
+        top: 30%;
+        text-align: center;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        padding: 2rem;
+        border-radius: 1rem;
+        position: absolute;
+    }
+
+    .summary ul li {
+        display: inline;
+        font-size: 2rem;
+        padding: 0.5rem;
+    }
+}
+
 @media screen and (min-width: 799px) {
     .summary {
         left: 45%;

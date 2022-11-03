@@ -12,8 +12,9 @@ import {
 } from "../../dummy_datas/IllustrationLinks.js";
 import CertificationLayout from "../../layouts/certification/CertificationLayout";
 import ExperienceLayout from "../../layouts/experience/ExperienceLayout";
-import {STORY_DATA} from "../../dummy_datas/StoryData"
+import { STORY_DATA } from "../../dummy_datas/StoryData";
 import Projects from "../../layouts/project/Projects";
+import Contact from "../../components/contact/Contact";
 
 function UnderWater() {
   useEffect(() => {
@@ -30,22 +31,21 @@ function UnderWater() {
           <HiOutlineChevronDoubleDown size={50} />
         </a>
       </div>
-      <div>
-        <Box
-          left={<p>{STORY_DATA}</p>}
-          right={<img src={STORY_ILLUSTRATION}></img>}
-        />
-        <Box
-          right={<ExperienceLayout title="My Experience" />}
-          left={<img src={EXPERIENCE_ILLUSTRATION}></img>}
-        />
-        <Box
-          title="My Certifications"
-          right={<img src={CERTIFICATION_ILLUSTRATION}></img>}
-          left={<CertificationLayout title="My Experience" />}
-        />
-      </div>
+      <Box
+        left={<p>{STORY_DATA}</p>}
+        right={<img className="illustration" src={STORY_ILLUSTRATION}></img>}
+      />
+      <Box
+        right={<ExperienceLayout title="My Experiences" />}
+        left={<img className="illustration" src={EXPERIENCE_ILLUSTRATION}></img>}
+      />
+      <Box
+        title="My Certifications"
+        right={<img className="illustration" src={CERTIFICATION_ILLUSTRATION}></img>}
+        left={<CertificationLayout title="My Certifications" />}
+      />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );
