@@ -19,9 +19,9 @@ export const CERTIFICATION_DATA = [
     },
     {
         id : "c4",
-        certImg : "https://media-exp1.licdn.com/dms/image/C560BAQEVM1koZvTvDA/company-logo_200_200/0/1541931307063?e=1674691200&v=beta&t=X-ZW3xHF-0syi2FbUFU5A7IFj2EmV3cFfDQmxna2wlk",
-        certTitle : "AWS Cloud Technical Bootcamp",
-        certGiver : "Veri Bilimi Okulu"
+        certImg : "https://pbs.twimg.com/profile_images/1360943119710253061/dWvmVVtD_400x400.jpg",
+        certTitle : "Data Visualization",
+        certGiver : "Global AI Hub"
     },
 ]
 

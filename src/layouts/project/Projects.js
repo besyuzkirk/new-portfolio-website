@@ -11,7 +11,7 @@ function Projects() {
         {PROJECTS.map((item) => (
           <Project
             animation={"zoom-in"}
-            link=""
+            projectLink={item.projectLink}
             projectImg={item.projectImg}
             projectName={item.projectName}
           />
