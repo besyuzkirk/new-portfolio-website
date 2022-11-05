@@ -13,14 +13,19 @@
   margin-bottom: 2rem;
 }
 
+.scroll-down-icon-svg {
+  font-size: 50px;
+}
+
 .scroll-down-icon p {
   margin-top: 3rem;
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
 
-.scroll-down-icon a {
+.scroll-down-icon .scroll-link {
   color: white;
+  cursor: pointer;
 }
 
 .about-title {
@@ -28,4 +33,16 @@
   text-align: center;
   margin-top: 15rem;
   margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 799px) {
+  .scroll-down-icon p {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .scroll-down-icon-svg {
+    font-size: 40px !important;
+  }
+  
 }

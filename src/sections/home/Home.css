@@ -1,13 +1,12 @@
 .content-section {
-    height: 80vh;
-    z-index: 1;
-    color: white;
-    overflow: hidden;
+  height: 80vh;
+  z-index: 1;
+  color: white;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 799px) {
-    .content-section {
-        height: 95vh;
-    }
+  .content-section {
+    height: 85vh; /* this must be equal with .body-start (scene) in ewery width */
+  }
 }
-

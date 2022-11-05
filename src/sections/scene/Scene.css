@@ -961,20 +961,15 @@ ul.no-bullet {
 }
 
 @media screen and (max-width: 799px) {
-    .content-section {
-        height: 95vh;
-    }
-
-    .body-start {
-      position: absolute;
-      text-align: center;
-      font-family: "Myriad Pro";
-      color: white;
-      display: block;
-      width: 100%;
-      height: 95vh;
-      display: flex;
-      z-index: -1;
-    }
+  .body-start {
+    position: absolute;
+    text-align: center;
+    font-family: "Myriad Pro";
+    color: white;
+    display: block;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    z-index: -1;
+  }
 }
-
