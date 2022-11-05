@@ -57,7 +57,7 @@ function Navigation() {
           spy={true}
           smooth={true}
           offset={-100}
-          duration={1000}
+          duration={1500}
         >
           Portfolio
         </Link>
