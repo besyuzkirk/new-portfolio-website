@@ -32,7 +32,7 @@ function Summary() {
           </a>
         </li>
         <li>
-          <a href="/">
+          <a href="https://medium.com/@ahmtk1910">
             <SiMedium />
           </a>
         </li>
