@@ -1,9 +1,9 @@
 export const DUMMY_EXPERIENCE = [
     {
         id: 'e1',
-        firmImageSrc: 'https://media-exp1.licdn.com/dms/image/C4D0BAQEHhQAWFpWiTA/company-logo_200_200/0/1543389570190?e=1672876800&v=beta&t=Q36oXnKKU2Ie4z2nGOwb2LQ5v8MPItCk6nomrfq0yYo',
-        jobTitle: "Software Development Project Student",
-        firmTitle: "BSH Turkey · Part Time",
+        firmImageSrc: 'https://media.licdn.com/dms/image/C4E0BAQEO0lV3jqS-Ag/company-logo_200_200/0/1677697230469?e=1691625600&v=beta&t=p6-gRss2bj_VW5WO0ms9747OGaI01CYwwt60GrIox08',
+        jobTitle: "Full Stack Developer",
+        firmTitle: "Turkish Technology · Part Time",
         jobDate: "Jan 2022 - Present",
         jobPlace: "Istanbul, Turkey"
     },
